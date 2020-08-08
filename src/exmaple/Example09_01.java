@@ -1,5 +1,6 @@
 package exmaple;
 
+import java.awt.Color;
 import java.awt.Container;
 import java.awt.FlowLayout;
 
@@ -15,6 +16,7 @@ public class Example09_01 extends JFrame {
 
 		ct = this.getContentPane();
 		ct.setLayout(new FlowLayout());
+		ct.setBackground(Color.orange);
 
 		this.setTitle("예제 09-01");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -24,6 +26,12 @@ public class Example09_01 extends JFrame {
 
 		subBtn = new JButton("SUB");
 		ct.add(subBtn);
+		
+		mulBtn=new JButton("곱하기");
+		divBtn=new JButton("나누기");
+		
+		ct.add(mulBtn);
+		ct.add(divBtn);
 
 		this.setSize(300, 300);
 		this.setVisible(true);
