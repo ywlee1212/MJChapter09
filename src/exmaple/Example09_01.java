@@ -26,12 +26,15 @@ public class Example09_01 extends JFrame {
 
 		subBtn = new JButton("SUB");
 		ct.add(subBtn);
-		
-		mulBtn=new JButton("곱하기");
-		divBtn=new JButton("나누기");
-		
+
+		mulBtn = new JButton("곱하기");
+		divBtn = new JButton("나누기");
+
+		calBtn = new JButton("계산하기");
+
 		ct.add(mulBtn);
 		ct.add(divBtn);
+		ct.add(calBtn);
 
 		this.setSize(300, 300);
 		this.setVisible(true);
