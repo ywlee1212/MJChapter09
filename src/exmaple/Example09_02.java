@@ -18,7 +18,7 @@ public class Example09_02 extends JFrame {
 		ct.setLayout(new BorderLayout());
 		ct.setBackground(Color.orange);
 
-		this.setTitle("¿¹Á¦ 09-02");
+		this.setTitle("ì˜ˆì œ 09-02");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
 		addBtn = new JButton("ADD");
@@ -27,10 +27,10 @@ public class Example09_02 extends JFrame {
 		subBtn = new JButton("SUB");
 		ct.add(subBtn, BorderLayout.SOUTH);
 
-		mulBtn = new JButton("°öÇÏ±â");
-		divBtn = new JButton("³ª´©±â");
+		mulBtn = new JButton("ê³±í•˜ê¸°");
+		divBtn = new JButton("ë‚˜ëˆ„ê¸°");
 
-		calBtn = new JButton("°è»êÇÏ±â");
+		calBtn = new JButton("ê³„ì‚°ê²°ê³¼");
 
 		ct.add(mulBtn,BorderLayout.WEST);
 		ct.add(divBtn,BorderLayout.EAST);
