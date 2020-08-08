@@ -1,11 +1,17 @@
 package exmaple;
 
+import java.awt.Container;
+
 import javax.swing.JFrame;
 
 public class Example09_01 extends JFrame {
 	
+	Container ct;
+	
 	public Example09_01() {
-		// TODO Auto-generated constructor stub
+
+		ct=this.getContentPane();
+		
 		this.setTitle("예제 09-01");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
