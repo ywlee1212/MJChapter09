@@ -15,7 +15,7 @@ public class Example09_02 extends JFrame {
 	
 	public Example09_02() {
 		ct = this.getContentPane();
-		ct.setLayout(new BorderLayout());
+		ct.setLayout(new BorderLayout(20,20));
 		ct.setBackground(Color.orange);
 
 		this.setTitle("예제 09-02");
